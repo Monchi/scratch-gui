@@ -170,6 +170,7 @@ const mapStateToProps = state => {
             state.scratchGui.targets.stage.id === state.scratchGui.targets.editingTarget
         ),
         telemetryModalVisible: state.scratchGui.modals.telemetryModal,
+        packLibraryVisible: state.scratchGui.modals.packLibrary,
         tipsLibraryVisible: state.scratchGui.modals.tipsLibrary,
         vm: state.scratchGui.vm
     };
